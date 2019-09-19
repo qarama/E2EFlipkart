@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 45.317 s <<< FAILURE! - in TestSuite
+getTitle(Academy.HomepageTest)  Time elapsed: 0.095 s  <<< FAILURE!
+java.lang.AssertionError: expected [Flipkart] but found [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]
+	at Academy.HomepageTest.getTitle(HomepageTest.java:66)
+

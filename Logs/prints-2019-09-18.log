@@ -1,0 +1,8 @@
+22:52:12.132 [main] INFO  resources.base - Started Login Validation
+22:52:17.481 [main] INFO  resources.base - Valid Info
+22:52:19.901 [main] INFO  resources.base - successfully closed the browser
+22:52:22.194 [main] INFO  resources.base - Driver is initialized
+22:52:26.286 [main] INFO  resources.base - Navigated to Home Page
+22:52:26.797 [main] INFO  resources.base - Successfully logged 
+22:52:30.344 [main] INFO  resources.base - Searched text successfully
+22:52:30.379 [main] INFO  resources.base - counting the list of header 9

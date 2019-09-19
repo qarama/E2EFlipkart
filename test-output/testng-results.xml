@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51163" started-at="2019-09-19T16:13:28 IST" finished-at="2019-09-19T16:14:19 IST">
+    <groups>
+    </groups>
+    <test name="LoginPage" duration-ms="33565" started-at="2019-09-19T16:13:28 IST" finished-at="2019-09-19T16:14:01 IST">
+      <class name="Academy.LoginPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.LoginPageTest@a2431d0]" name="initialize" is-config="true" duration-ms="3270" started-at="2019-09-19T16:13:28 IST" finished-at="2019-09-19T16:13:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getLoginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.LoginPageTest@a2431d0]" name="getLoginPage" duration-ms="19927" started-at="2019-09-19T16:13:31 IST" data-provider="getData" finished-at="2019-09-19T16:13:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rcdas2012]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9874a5612]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginPage -->
+        <test-method status="PASS" signature="getLoginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.LoginPageTest@a2431d0]" name="getLoginPage" duration-ms="7973" started-at="2019-09-19T16:13:51 IST" data-provider="getData" finished-at="2019-09-19T16:13:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rcdas2012@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9778a474132]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid Info]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.LoginPageTest@a2431d0]" name="tearDown" is-config="true" duration-ms="2316" started-at="2019-09-19T16:13:59 IST" finished-at="2019-09-19T16:14:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.LoginPageTest -->
+    </test> <!-- LoginPage -->
+    <test name="Homepage" duration-ms="16960" started-at="2019-09-19T16:14:02 IST" finished-at="2019-09-19T16:14:19 IST">
+      <class name="Academy.HomepageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomepageTest@24fcf36f]" name="initialize" is-config="true" duration-ms="9369" started-at="2019-09-19T16:14:02 IST" finished-at="2019-09-19T16:14:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getHomePage()[pri:0, instance:Academy.HomepageTest@24fcf36f]" name="getHomePage" duration-ms="5392" started-at="2019-09-19T16:14:11 IST" finished-at="2019-09-19T16:14:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomePage -->
+        <test-method status="FAIL" signature="getTitle()[pri:0, instance:Academy.HomepageTest@24fcf36f]" name="getTitle" duration-ms="47" started-at="2019-09-19T16:14:17 IST" finished-at="2019-09-19T16:14:17 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Flipkart] but found [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Flipkart] but found [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at Academy.HomepageTest.getTitle(HomepageTest.java:66)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="headerValidation()[pri:0, instance:Academy.HomepageTest@24fcf36f]" name="headerValidation" duration-ms="1637" started-at="2019-09-19T16:14:17 IST" finished-at="2019-09-19T16:14:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomepageTest@24fcf36f]" name="tearDown" is-config="true" duration-ms="77" started-at="2019-09-19T16:14:19 IST" finished-at="2019-09-19T16:14:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.HomepageTest -->
+    </test> <!-- Homepage -->
+  </suite> <!-- Suite -->
+</testng-results>

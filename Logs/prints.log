@@ -1,0 +1,5 @@
+20:40:58.844 [main] ERROR resources.base - getTitle is failed
+20:41:00.083 [main] INFO  resources.base - counting the list of header 9
+20:41:00.285 [main] INFO  resources.base - successfully selected
+20:41:00.986 [main] INFO  resources.base - Successfully passed 
+20:41:03.328 [main] INFO  resources.base - successfully closed the browser
